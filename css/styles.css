@@ -1,0 +1,51 @@
+
+
+/*Navbar styles*/
+.logo {
+  width:50px;
+}
+.navbar {
+  position: absolute;
+  top: 0;
+  z-index: 20;
+  width: 100%;
+  margin-bottom: 0;
+  background-color: transparent;
+  border-color: transparent;
+}
+.navbar-default {
+     background-color: #fff;
+     border-color: #fff;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    color: #fff;
+    background-color: #00592D;
+}
+
+/*carousel*/
+.carousel-inner .item {
+  height:600px;
+  background-size: cover;
+  background-position: center;
+}
+.carousel-caption p {
+  color: #fff;
+  font-size: 17px;
+  text-shadow: 0px opx 3px rgba(0, 0, 0, 0.71);
+  font-weight: 400;
+}
+.carousel-caption {
+  bottom: 110px;
+}
+.slide-one {
+  background-image: url(../img/outside.jpg);
+}
+.slide-two {
+  background-image: url(../img/summerday.jpg);
+}
+.slide-three {
+  background-image: url(../img/carnival.jpg);
+}
+.slide-four {
+  background-image: url(../img/storytime.jpg);
+}
